@@ -1,0 +1,46 @@
+body{
+    background-image:url(./fruit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+}
+ol{
+  background-color: black;
+  list-style: none;
+  padding:20px 30px;
+  overflow: hidden;
+}
+li {
+float: inline-start;
+   padding: 10px 80px;
+   position: relative;
+   list-style-position: inside;
+   list-style: none;
+   font-size: 20px;
+}
+h2,h3{
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:rgba(22, 21, 21, 0.479);
+    text-emphasis-color: white;
+    width:50%;
+}
+.bottom-container{
+    align-self: flex-end;
+    background-color: black;
+    padding: 2px 2px;
+    
+    bottom: 100px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
